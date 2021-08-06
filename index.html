@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lester Howard">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'/>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./calculator.js" defer></script>
+    <title>Calculator</title>
+    <meta name="author" content="Lester Howard">
+    <meta name="description " content="All mathematical operations are possible and it can throw some errors if only exist one digit or do result not including two numbers.">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator__screen">
+                <input type="text" class="calculator__input" id="calculator__input" placeholder="0" readonly></input>
+            </div>
+            <div class="calculator__keys">
+                <button class="calculator__button" data-operation="clear">C</button>
+                <button class="calculator__button" data-math="divide">/</button>
+                <button class="calculator__button" data-math="multiply">*</button>
+                <button class="calculator__button" data-math="minus">-</button>
+                <button class="calculator__button" data-number="7">7</button>
+                <button class="calculator__button" data-number="8">8</button>
+                <button class="calculator__button" data-number="9">9</button>
+                <button class="calculator__button" data-math="sum">+</button>
+                <button class="calculator__button" data-number="4">4</button>
+                <button class="calculator__button" data-number="5">5</button>
+                <button class="calculator__button" data-number="6">6</button>
+                <button class="calculator__button" data-number="1">1</button>
+                <button class="calculator__button" data-number="2">2</button>
+                <button class="calculator__button" data-number="3">3</button>
+                <button class="calculator__button" data-operation="equal">=</button>
+                <button class="calculator__button" data-number="0">0</button>
+                <button class="calculator__button" data-number=".">.</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
