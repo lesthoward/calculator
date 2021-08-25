@@ -1,0 +1,28 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "dependencies": {
+    "core-js": "^3.16.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  },
+  "scripts": {
+    "test": "babel calculator.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesthoward/calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesthoward/calculator/issues"
+  },
+  "homepage": "https://github.com/lesthoward/calculator#readme"
+}
